@@ -24,7 +24,7 @@
 #define PORT_R_PWM 1
 #define PORT_L_PWM 2
 
-#define MOTOR_SPEED 64
+#define MOTOR_SPEED 250
 
 void driverInit(void);
 void driverOn(void);

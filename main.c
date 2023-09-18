@@ -7,7 +7,7 @@ void initAll(void);
 int main(void) {
     initAll();
     while(1) {
-        int16_t angle_received = uartReceiveData(); // 200...800
+        int16_t angle_received = uartReceiveData(); 
         uartSendDec((int16_t)setpoint);
         uartTransmitByte('\t');
         if(angle_received < MIN_SETPOINT)

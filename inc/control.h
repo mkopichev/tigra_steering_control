@@ -3,8 +3,8 @@
 
 #include "utils.h"
 
-#define MIN_SETPOINT 100
-#define MAX_SETPOINT 923
+#define MIN_SETPOINT 100//250
+#define MAX_SETPOINT 500//400
 
 void controlLoopTimerInit(void);
 
